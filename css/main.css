@@ -17,6 +17,7 @@
 
 body {
   /* Establece la fuente de Google aquí */
+  font-family: 'Raleway', sans-serif;
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
@@ -35,13 +36,11 @@ a {
 a:hover {
   color: #E95853;
 }
-
 .link{
   font-weight: 700;
   padding: 21px;
-  display: inline-block;
+  display: inline-block; /* crear cajas que son de bloque en linea de forma simultanea */
 }
-
 .logo{
   float: right;
 }
