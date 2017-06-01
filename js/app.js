@@ -34,9 +34,21 @@
 		box2.addEventListener("click" ,function(){
 			modal2.innerHTML = "";
 			bodyModal2 = document.createElement("div");
-			bodyModal2.classList.add("modal-body")
-		})
-	})
+			bodyModal2.classList.add("modal-body");
+			bbodyModal2.innerHTML = box2.innerHTML;			
+			modal2.appendChild(bodyModal2);
+			modal2.classList.remove("hide");
+			close = document.createElement("div");
+			close.classList.add("close");
+			img = document.createElement("img");
+			img.setAttribute("src", "http://tojaeurope.com/gallery/Close-icon.png");
+			close.appendChild(img);
+			modal2.appendChild(close);
+			close.addEventListener("click",function(){
+				modal2.classList.add("hide");
+			});
+		});		
+	});
 
 
 })();
