@@ -147,31 +147,30 @@ header{
   display: none;
 }
 
-#hero{
+
+#laptop{
   background-image: url(../assets/images/hero.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  text-align: center;
-  margin-top: 180px;
-  padding: 80px;
-}
-.text-work{
-  font-size: 53px;
+ background-size: cover;
+  height: 894px;
+  margin: 0px 66px;
 }
 
-.btn-work{
-  background: white;
-  color: #fff;
-  padding: 11px 2px;
-  border-radius: 1px;
-  font-weight: 500px;
-  text-transform: uppercase;
-  margin-top: 63px;
-  display: inline-block;
-  font-size: 14px;
+.work{
+  background-color: white;
+  text-align: center;
+  color: black;
+  padding: 20px 90px 10px 90px;
 }
+
+
+
+
+
+
+
+
 footer{
   text-align: center;
   height: 70px;
