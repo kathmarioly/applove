@@ -96,6 +96,82 @@ header{
   font-size: 35px;
   letter-spacing: 2px;
 }
+.box-services{
+  cursor: pointer;
+}
+
+.box-services:hover{
+  background-color: rgba(255,255,255,0.2);
+}
+
+/*Modal*/
+#box-services-modal{
+  background-color: rgba(240,30,80,0.85);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#box-services-modal .modal-body{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px;
+}
+
+#box-services-modal .modal-body h5,
+#box-services-modal .modal-body h6{
+  color: whitesmoke;
+}
+#box-services-modal .modal-body h5{
+  font-size: 2em;
+}
+#box-services-modal .modal-body h6{
+  font-size: 1em;
+}
+
+#box-services-modal .close{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+#box-services-modal .close img{
+  width: 60px;
+}
+
+.hide{
+  display: none;
+}
+
+#hero{
+  background-image: url(../assets/images/hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  margin-top: 180px;
+  padding: 80px;
+}
+.text-work{
+  font-size: 53px;
+}
+
+.btn-work{
+  background: white;
+  color: #fff;
+  padding: 11px 2px;
+  border-radius: 1px;
+  font-weight: 500px;
+  text-transform: uppercase;
+  margin-top: 63px;
+  display: inline-block;
+  font-size: 14px;
+}
 footer{
   text-align: center;
   height: 70px;
