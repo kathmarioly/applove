@@ -25,4 +25,18 @@
 			});
 		});		
 	});
+
+
+	var boxes2 = Array.from(document.getElementsByClassName("box-proyectos"));
+	var modal2 = document.getElementById("box-services-modal");
+	var bodyModal2, close, img;
+	boxes2.forEach(function(box2){
+		box2.addEventListener("click" ,function(){
+			modal2.innerHTML = "";
+			bodyModal2 = document.createElement("div");
+			bodyModal2.classList.add("modal-body")
+		})
+	})
+
+
 })();

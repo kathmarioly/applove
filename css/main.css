@@ -164,12 +164,19 @@ header{
   padding: 20px 90px 10px 90px;
 }
 
+#proyectos{
+  background-color: white;
+  text-align: center;
+  color: black;
+  padding: 70px 7px;
+}
 
 
-
-
-
-
+.box-proyectos{
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+}
 
 footer{
   text-align: center;
